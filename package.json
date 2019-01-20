@@ -1,0 +1,30 @@
+{
+  "name": "canadian-part-picker",
+  "version": "1.0.0",
+  "description": "A tool for picking computer parts made by Canadians for Canadians.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguel-Caringal/Candian-Part-Picker.git"
+  },
+  "author": "Miguel Caringal, Hao Yun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miguel-Caringal/Candian-Part-Picker/issues"
+  },
+  "homepage": "https://github.com/Miguel-Caringal/Candian-Part-Picker#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "react": "^16.7.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
+}
